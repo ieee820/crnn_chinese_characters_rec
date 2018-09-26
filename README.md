@@ -10,6 +10,6 @@ chinese characters recognition
 ![](https://github.com/Sierkinhane/crnn_chinese_characters_rec/blob/master/test_images/1.png)
 ![](https://github.com/Sierkinhane/crnn_chinese_characters_rec/blob/master/test_images/2.png)
 
-### training:
+### training(accuray was 97.7% ultimately):
 ![](https://github.com/Sierkinhane/crnn_chinese_characters_rec/blob/master/test_images/3.png)
 
