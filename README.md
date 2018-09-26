@@ -3,4 +3,8 @@ chinese characters recognition
 
 descriptions in chinese：https://blog.csdn.net/Sierkinhane/article/details/82857572
 
-![](https://github.com/Sierkinhane/Crnn_Ctpn_Unified/raw/master/end2endDec_Rec/detect_data/detect_images/1.png)
+3.6 million chinese characters dataset：
+![](https://github.com/Sierkinhane/LearningRecords/blob/master/chinese_char.png)
+
+recognition：
+
