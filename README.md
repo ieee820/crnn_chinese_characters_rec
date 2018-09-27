@@ -4,7 +4,7 @@ chinese characters recognition
 ## Descriptions in chinese：https://blog.csdn.net/Sierkinhane/article/details/82857572
 
 ## Test
-> There are images in test_images file, and you just run as follow.
+There are images in test_images file, and you just run as follow.
 > python3 test.py
 
 ## Train
