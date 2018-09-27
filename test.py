@@ -35,7 +35,7 @@ def crnn_recognition(cropped_image, model):
   
     image = cropped_image.convert('L')
 
-    ## 
+    ## 280 is the width of training image, and resize it to 160 then feed into neural networks.
     w = int(image.size[0] / (280 * 1.0 / 160))
     transformer = dataset.resizeNormalize((w, 32))
     image = transformer(image)
