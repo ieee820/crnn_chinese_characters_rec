@@ -8,7 +8,7 @@ chinese characters recognition
 > python3 test.py
 
 ## Train
-> before traning, you should prepare the dataset of characters.(described in csdn blog)
+before traning, you should prepare the dataset of characters.(described in csdn blog)
 
 > python3 crnn_main.py --train_root (path of train lmdb dataset) --val_root (path of val lmdb dataset) --cuda(if have)
 
