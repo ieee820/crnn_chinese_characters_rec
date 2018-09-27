@@ -132,7 +132,7 @@ if __name__ == '__main__':
     else:
         sampler = None
 
-    # images will be resize to 32*100
+    # images will be resize to 32*160
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=params.batchSize,
         shuffle=True, sampler=sampler,
