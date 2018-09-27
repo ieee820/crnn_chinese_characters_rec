@@ -2,7 +2,11 @@
 chinese characters recognition
 
 ## Test
+> There are images in test_images file, and you just run as follow.
 > python3 test.py
+
+## Train
+> python3 crnn_main.py --train_root <path of train lmdb dataset> --val_root <path of val lmdb dataset> --cuda(if have)
 
 ## Descriptions in chinese：https://blog.csdn.net/Sierkinhane/article/details/82857572
 
