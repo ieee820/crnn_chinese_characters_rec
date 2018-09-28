@@ -28,15 +28,7 @@ def writeCache(env, cache):
             txn.put(k, v)
 			
 def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkValid=True):
-    """
-    Create LMDB dataset for CRNN training.
-    ARGS:
-        outputPath    : LMDB output path
-        imagePathList : list of image path
-        labelList     : list of corresponding groundtruth texts
-        lexiconList   : (optional) list of lexicon lists
-        checkValid    : if true, check the validity of every image
-    """
+
     assert(len(imagePathList) == len(labelList))
     nSamples = len(imagePathList)
     env = lmdb.open(outputPath, map_size=1099511627776)
@@ -47,9 +39,6 @@ def createDataset(outputPath, imagePathList, labelList, lexiconList=None, checkV
         #print(imagePath)
         label = ''.join(labelList[i])
         print(label)
-        # if not os.path.exists(imagePath):
-        #     print('%s does not exist' % imagePath)
-        #     continue	
 		
         with open('.'+imagePath, 'r') as f:
             imageBin = f.read()
